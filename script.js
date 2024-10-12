@@ -66,7 +66,7 @@ function playerWon() {
 
 resetBtn.addEventListener("click", () => {
   spaces.fill(null);
-  palyerText.innerHTML = "Tic Tac Toe";
+  palyerText.innerHTML = "Tic-Tac-Toe";
   countPlayes = 0;
   boxes.forEach((box) => {
     box.innerHTML = "";
